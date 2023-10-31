@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+   <!-- <meta charset="UTF-8">   additional info of page-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <body> 
+    <center>
+        <table>
+            <h2 style="color:blue;">Registration form</h2>
+    <form>
+        <!-- Single line input-->
+
+            <tr>
+                <td><strong><label for="fn">First Name</label></strong></td>
+                <td><input type="text" name="fn"/></td>
+            </tr>
+            <tr>
+                <td><strong><label for="fn">Last Name</label></strong></td>
+                <td><input type="text" name="fn"/></td>
+            </tr>
+            <tr>
+                <td><strong><label for="fn">Email</label></strong></td>
+                <td><input type="text" name="fn"/></td>
+            </tr>
+            <tr>
+                <td><strong><label for="fn">Password</label></strong></td>
+                <td><input type="password" name="pswd" id="pswd" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,16}$"></td>
+            </tr>
+            <tr>
+                <td><strong><label for="fn">Re-enter Password</label></strong></td>
+                <td><input type="password" name="pswd" id="pswd" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,16}$"></td>
+            </tr>
+            <tr>
+                <td><strong><label>Gender</label></strong></td>
+        <td><input type="radio" name="gender"/>Male
+        <input type="radio" name="gender" />Female</td>
+            </tr>
+            <tr>
+                <td><strong><label for="fn">Age:</label></strong></td>
+                <td><input type="text" name="fn"/></td>
+            </tr>
+            <tr>
+                <td><strong><label for="fn">Phone Number</label></strong></td>
+                <td><input type="text" name="fn"/></td>
+            </tr>
+            <tr> <!-- Multi line input-->
+                <td><strong><label>Address:</label></strong></td>
+                <td><textarea ></textarea></td>
+            </tr>
+            <tr>
+                <td><strong><label for="fn">State</label></strong></td>
+                <td><input type="text" name="fn"/></td>
+            </tr>
+
+            <tr>
+                <!-- Dropdown-->
+                <td><strong><label>Country</label></strong></td>
+                <td>
+                    <select>
+                        <option>Choose your country</option>
+                        <option>INDIA</option>
+                        <option>USA</option>
+                        <option>CANADA</option>
+                        <option>QATAR</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+               <!-- Checkbox -->
+        <td><strong><label>Languages known</label></strong></td>
+        <td><input type="checkbox" />English</td>
+        <td><input type="checkbox" />Kannada</td>
+        <td><input type="checkbox" />Hindi</td>
+        <td><input type="checkbox" />Telugu</td>
+            </tr>
+            
+            <tr>
+                <td><strong><input type="checkbox" /></strong></td>
+            <td><label>Hereby I declare all the given details are true</label></td>
+        </tr>
+       <tr><td>Log in to <a href="https://www.ethnus.com" target="_blank">Ethnus</a> website<td></td></tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Register"/>
+                </td>
+            </tr>
+    </form>
+</table>
+</center>
+   </body>
+</head></html>

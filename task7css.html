@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+   <!-- <meta charset="UTF-8">   additional info of page
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <title>Document</title>
+   <body> 
+    <center>
+        <table>
+    <form>
+        <!-- Single line input -->
+        <table bgcolor="darkred"  cellspacing="30" >
+            <tr>
+                <td style="color:white;"><label for="fn">Name:</label></td>
+                <td><input type="text" name="fn" placeholder="your name"/></td>
+            </tr>
+            <tr>
+                <td style="color:white;"><label for="fn">Email:</label></td>
+                <td><input type="text" name="fn" placeholder="your email"/></td>
+            </tr>
+            <tr>
+                <td style="color:white;"><label for="fn">Password</label></td>
+                
+                <td><input type="password" name="pswd" id="pswd" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,16}$" ></td>
+            </tr>
+            <tr>
+                <td style="color:white;"><label for="fn">Phone Number:</label></td>
+                <td><input type="text" name="fn"/></td>
+            </tr>
+            <tr>
+                <td style="color:white;"><label>Gender</label></td>
+        <td><input type="radio" name="gender"/>Male
+        <input type="radio" name="gender" />Female</td>
+            </tr>
+            <tr>
+                <!-- Dropdown -->
+                <td style="color:white;"><label>Language</label></td>
+                <td>
+                    <select>
+                        <option>Select language</option>
+                        <option>English</option>
+                        <option>Kannada</option>
+                        <option>Hindi</option>
+                        <option>Telugu</option>
+                        <option>Tamil</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="color:white;"><label for="fn">Zip Code:</label></td>
+                <td><input type="text" name="fn"/></td>
+            </tr>
+           
+            <tr> <!-- Multi line input -->
+                <td style="color:white;"><label>About:</label></td>
+                <td ><textarea placeholder="Write about yourself..." ></textarea></td>
+            </tr>
+           
+            <tr>
+                <td>
+                   <b><input type="submit" value="Register"/></b>
+                </td>
+            </tr>
+    </form>
+</table>
+</center>
+   </body>
+</head></html>

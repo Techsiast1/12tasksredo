@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!-- <meta charset="UTF-8">   additional info of page
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <title>Document</title>
+   <body> 
+    <center>
+        <table>
+    <form>
+        <tr>
+            <td><label for="fn">First Name:</label></td>
+            <td><input type="text" name="fn" /></td>
+        </tr>
+        <tr> <!-- Multi line input -->
+            <td><labe for="fn">Username:</label></td>
+            <td><input type="text" name="fn" /></td>
+        </tr>
+        <tr> 
+            <td>
+            <!--<td><input type="text" name="fn" /></td>-->
+            <label for="pswd">Password:</label></td>
+	<td><input type="password" name="pswd" id="pswd" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,16}$"></td>
+	
+        </tr>
+        <tr> <!-- Multi line input -->
+            <td><label for="fn">Re Password:</label></td>
+            <td><input type="password" name="pswd" id="pswd" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,16}$"></td>
+            <!--<td><input type="text" name="fn" /></td>-->
+        </tr>
+        <tr> <!-- Multi line input -->
+            <td><label for="fn">Address:</label></td>
+            <td><input type="text" name="fn" /></td>
+        </tr>
+        <tr> <!-- Multi line input -->
+            <td><label for="fn">Age:</label></td>
+            <td><input type="text" name="fn" /></td>
+        </tr>
+        <tr>
+            <!-- Dropdown -->
+            <td><label>Gender:</label></td>
+            <td>
+                <select>
+                    <option>--Select--</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="Save"/>
+            </td>
+        </tr>
+    </form>
+</table>
+</center>
+   </body>
+</head></html>
